@@ -101,11 +101,11 @@ export default function App() {
                     backgroundColor: "rgba(57, 192, 237,.2)",
                   }}
                 >
-                  <h6><b>{message.author}</b></h6>
+                  <div style={{fontSize: "15px", color: "blue"}}>{message.author}</div>
                   <p className="small mb-0">
-                    {message.message}
+                    <b>{message.message}</b>
                   </p>
-                  <p style={{fontSize: "12px"}} className="mb-0">
+                  <p style={{fontSize: "12px", color: "green"}} className="mb-0">
                     {message.time}
                   </p>
                 </div>
@@ -116,11 +116,11 @@ export default function App() {
                   className="p-3 me-3 border"
                   style={{ borderRadius: "15px", backgroundColor: "#fbfbfb" }}
                 >
-                  <h6><b>{message.author}</b></h6>
+                  <div style={{fontSize: "15px", color: "blue"}}>{message.author}</div>
                   <p className="small mb-0">
-                    {message.message}
+                    <b>{message.message}</b>
                   </p>
-                  <p style={{fontSize: "12px"}} className="mb-0">
+                  <p style={{fontSize: "12px", color: "green"}} className="mb-0">
                     {message.time}
                   </p>
                 </div>
